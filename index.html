@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="dist/output.css" rel="stylesheet" />
+    <link href="node_modules/@flaticon/flaticon-uicons/css/brands/all.css" rel="stylesheet" />
+    <link href="node_modules/@flaticon/flaticon-uicons/css/regular/all.css" rel="stylesheet" />
+    <link href="node_modules/@flaticon/flaticon-uicons/css/solid/all.css" rel="stylesheet" />
+    <link href="node_modules/@flaticon/flaticon-uicons/css/bold/all.css" rel="stylesheet" />
+    
   </head>
   <body class="body">
     <!-- loading screen -->
@@ -11,7 +16,7 @@
       <div class="loading-container w-[50%] text-center">
         <div class="loading-line-container mb-10">
           <img
-            src="./assets/519613.jpg"
+            src="./assets/3.jpg"
             width="50"
             class="rounded-full mx-auto mb-2"
             alt=""
@@ -31,7 +36,7 @@
     <!-- Akhir loading screen -->
 
     <!-- content -->
-    <div class="main z-[50] w-[100vw]">
+    <div class="main z-[50] w-[100vw] h-screen">
       <!-- Navbar -->
       <div class="navbar fixed z-50 top-0 left-0 right-0 bg-transparent">
         <div class="navbar-start">
@@ -107,17 +112,26 @@
 
       <!-- konten animasi background -->
       <div
-        class="w-full h-screen changeBgColor pb-20 lg:pb-0 changeBg relative"
+        class="w-full h-[1000px] changeBgColor pb-20 lg:pb-0 changeBg relative"
       >
         <div
-          class="ps-10 lg:ps-20 absolute top-0 left-0 right-0 bottom-0 z-40 flex items-end pb-20 lg:items-center"
+          class="ps-10 lg:ps-20 absolute top-[450px] lg:top-[280px] left-0 right-0 z-40 pb-20"
         >
           <h1
-            class="text-2xl lg:text-7xl font-bold text-white uppercase fadeIn"
+            class="text-4xl md:text-6xl lg:text-8xl font-semibold lg:font-bold text-white uppercase fadeIn"
           >
-            Hello There, <span class="block">Welcome to Stack.id</span>
+            Hello There, <span class="block">Welcome to <span class="block">Stack.id</span></span>
           </h1>
+
+          <div class="mt-32 lg:mt-40 lg:flex items-center justify-end pe-10">
+            <p class="w-full lg:w-[500px] text-sm md:text-base lg:text-2xl font-normal text-white lg:font-semibold">Stack.id is a website where I collect various portfolios that I have had since I became a programmer. <span class="block">Maybe you are interested in seeing it.</span><a href="#portfolio" class="text-black font-bold underline">Show it now!</a></p>
+          </div>
+          <progress class="progress w-56"></progress>
+          
         </div>
+        
+
+        
 
         <!-- animasi latar belakang -->
         <div class="h-screen flex items-center justify-center relative">
@@ -132,6 +146,179 @@
         <!-- akhir animasi latar belakang -->
       </div>
       <!-- Akhir konten animasi background -->
+
+      <!-- section about -->
+      <section class="-translate-y-10 bg-white w-[95%] h-auto lg:h-screen mx-auto rounded-lg shadow-lg p-8 relative">
+        <div class="area">
+          <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <header class="flex items-center justify-between mb-10">
+          <span class="loading loading-infinity loading-lg"></span>
+          <span class="text-sm font-semibold text-black uppercase">About me</span>
+        </header>
+        <main>
+          <p class="text-sm font-medium text-slate-700 mb-10 text-center lg:text-start">I have experience in developing attractive and functional user interfaces on the front end with HTML, CSS, and JavaScript. Additionally, I have experience on the back end using various technologies such as Node.js, Express, and PHP.</p>
+          <div class="w-full lg:flex gap-3">
+            <div class="shadow-lg border p-10 lg:p-5 rounded-md text-center lg:text-start mb-3">
+              <div class="w-full">
+                <img src="./assets/3.jpg" width="200px" class="rounded-full border border-purple-600 p-1 mb-5 mx-auto" alt="">
+              </div>
+              
+              <span class="text-black font-bold capitalize">Muhammad Syaifuddin</span>
+              <span class="block text-xs">20 Years Old</span>
+              <span class="text-xs">Banjarbaru, South Of Borneo, Indonesia</span>
+              <div class="flex items-center justify-end gap-2 mt-5">
+                <a href="" class="text-xl border rounded-md px-2 pt-1 bg-pink-800 text-white"><i class="fi fi-brands-instagram"></i></a>
+                <a href="" class="text-xl border rounded-md px-2 pt-1 bg-black text-white"><i class="fi fi-brands-github"></i></a>
+                <a href="" class="text-xl border rounded-md px-2 pt-1 bg-blue-800 text-white"><i class="fi fi-brands-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="w-full flex items-center border shadow-lg rounded-xl mb-3">
+                <div class="border-e flex lg:flex-row flex-col items-center justify-between gap-3 p-5">
+                  <div class="order-last lg:order-first">
+                    <span class="text-xs lg:text-base font-thin text-slate-400">Projects</span>
+                    <span class="text-xl lg:text-4xl font-extrabold text-blue-700 block">50+</span>
+                    <span class="block text-xs font-thin text-slate-400">Repositories created</span>
+                  </div>
+                  <i class="fi fi-br-heart text-blue-700 font-bold"></i>
+                </div>
+                <div class="border-e flex lg:flex-row flex-col items-center justify-between gap-3 p-5">
+                  <div class="order-last lg:order-first">
+                    <span class="text-xs lg:text-base font-thin text-slate-400">Activity</span>
+                    <span class="text-xl lg:text-4xl font-extrabold text-pink-700 block">60+</span>
+                    <span class="block text-xs font-thin text-slate-400">Contributions in 2023</span>
+                  </div>
+                  <i class="fi fi-bs-thunderstorm text-pink-700 font-bold"></i>
+                </div>
+                <div class="flex lg:flex-row flex-col items-center justify-between gap-3 p-5">
+                  <div class="order-last lg:order-first">
+                    <span class="text-xs lg:text-base font-thin text-slate-400">Page</span>
+                    <a href="" class="block text-xs font-thin text-white p-2 mt-2 text-center rounded-md shadow bg-gradient-to-r from-purple-800 to-blue-800">See on Github</a>
+                  </div>
+                  <img src="./assets/2.jpg" width="50" class="rounded-full" alt="">
+                </div>
+              </div>
+              <span class="text-slate-400 text-sm font-medium capitalize block">Skills</span>
+              <div class="shadow-lg border px-2 py-5 lg:p-5 rounded-md text-center lg:text-start flex items-center gap-2 mt-2 mb-3">
+                <span class="tooltip tooltip-bottom" data-tip="HTML3"><i class="pt-1 px-2 rounded-lg fi fi-brands-html5 text-xl text-white bg-orange-600"></i></span>
+                <span class="tooltip tooltip-bottom" data-tip="CSS3"><i class="pt-1 px-2 rounded-lg fi fi-brands-css3 text-xl text-white bg-blue-500"></i></span>
+                <span class="tooltip tooltip-bottom" data-tip="JavaScript"><i class="pt-1 px-2 rounded-lg fi fi-brands-js text-xl text-white bg-yellow-400"></i></span>
+                <span class="tooltip tooltip-bottom" data-tip="PHP"><i class="pt-1 px-2 rounded-lg fi fi-brands-php text-xl text-white bg-purple-600"></i></span>
+              </div>
+              <div>
+                <p class="text-slate-700 text-base font-medium tracking-tight block w-full lg:w-[530px]">I am a person who <span class="text-blue-700">easily adapts</span> to new environments, is <span class="text-pink-600">quick at learning</span> new things, is <span class="text-orange-500">responsible</span> for my work, and can <span class="text-black">work together</span> as a team.</p>
+                <p class="text-slate-700 text-base font-medium tracking-tight block w-full lg:w-[530px]">In the last 2 years, I have been able to learn a lot about technology in website development, which has made me a full-stack developer today.</p>
+                <progress class="progress progress-secondary w-56"></progress>
+              </div>              
+            </div>
+            <div>
+              <span class="text-slate-400 text-sm font-medium capitalize block">technologies</span>
+              <div class="grid grid-cols-3 gap-4 mb-4 mt-2">
+                <div class="border rounded-xl shadow-md p-5 h-max text-center">
+                  <img src="./assets/react-svgrepo-com.svg" class="mx-auto" width="70" alt="">
+                  <span class="block text-sm font-bold text-blue-300">React</span>
+                </div>
+                <div class="border rounded-xl shadow-md p-5 h-max text-center">
+                  <img src="./assets/vue-svgrepo-com (1).svg" class="mx-auto" width="70" alt="">
+                  <span class="block text-sm font-bold text-green-800">Vue 3</span>
+                </div>
+                <div class="border rounded-xl shadow-md p-5 h-max text-center">
+                  <img src="./assets/tailwind-svgrepo-com.svg" class="mx-auto" width="70" alt="">
+                  <span class="block text-sm font-bold text-teal-500">Tailwind</span>
+                </div>
+              </div>
+              <div class="grid grid-cols-3 gap-4 mb-3">
+                <div class="border rounded-xl shadow-md p-5 h-max text-center">
+                  <img src="./assets/bootstrap-svgrepo-com.svg" class="mx-auto" width="70" alt="">
+                  <span class="block text-sm font-bold text-purple-700">Bootstrap</span>
+                </div>
+                <div class="border rounded-xl shadow-md p-5 h-max text-center">
+                  <img src="./assets/laravel-svgrepo-com.svg" class="mx-auto" width="70" alt="">
+                  <span class="block text-sm font-bold text-red-500">Laravel</span>
+                </div>
+                <div class="border rounded-xl shadow-md p-5 h-max text-center">
+                  <img src="./assets/next-js-svgrepo-com.svg" class="mx-auto" width="70" alt="">
+                  <span class="block text-sm font-bold text-black">Next</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3 justify-end">
+                <span class="loading loading-spinner text-primary"></span>
+                <span class="loading loading-spinner text-secondary"></span>
+                <span class="loading loading-spinner text-accent"></span>
+                <span class="loading loading-spinner text-neutral"></span>
+                <span class="loading loading-spinner text-info"></span>
+                <span class="loading loading-spinner text-success"></span>
+                <span class="loading loading-spinner text-warning"></span>
+                <span class="loading loading-spinner text-error"></span>
+              </div>
+            </div>
+          </div>
+          
+        </main>
+      </section>
+      <!-- akhir section about -->
+      <div class="relative">
+        <div class="sticky top-0 h-auto px-8 pb-10 lg:pb-0">
+          <div class="flex justify-between">
+            <span class="text-sm font-bold text-black uppercase">Career</span>
+            <div class='flex items-center gap-1'>
+              <span class='sr-only'>Loading...</span>
+               <div class='h-4 w-4 bg-black rounded-full animate-bounce [animation-delay:-0.3s]'></div>
+             <div class='h-4 w-4 bg-black rounded-full animate-bounce [animation-delay:-0.15s]'></div>
+             <div class='h-4 w-4 bg-black rounded-full animate-bounce'></div>
+           </div>
+          </div>
+          <div class="text-start mt-10">
+            <h1 class="lg:animate-typing overflow-hidden whitespace-nowrap text-black font-bold text-base lg:text-7xl uppercase mb-5 lg:mb-0">
+              How was my previous <span class="block">career journey?</span>
+            </h1>
+            <div class="flex flex-col lg:flex-row justify-between items-center gap-10">
+              <span class="block text-base font-medium text-slate-700">I graduated from high school in 2021. I was given the choice to continue college or work. At that time, I decided to look for work to improve my ability to interact with people.</span>
+              <img src="./assets/9.jpg" class="rounded-md w-[80%] lg:w-[35%]" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="sticky top-0 h-auto bg-white p-8">
+          <div class="flex items-center justify-end mb-10 lg:mb-20">
+            <h1 class="text-4xl text-end uppercase font-bold text-black">There were my career journey <span class="block text-sm font-normal text-slate-500">2021-2023</span></h1>
+          </div>
+          <div class="flex items-center justify-between">
+            <div>
+              <div class="flex w-full py-2 gap-2">
+                <a href="#1" class=""><i class="fi fi-br-circle text-blue-600"></i></a> 
+                <a href="#2" class=""><i class="fi fi-br-circle text-red-700"></i></a> 
+                <a href="#3" class=""><i class="fi fi-br-circle text-purple-600"></i></a>
+              </div>
+              <div class="w-64 carousel rounded-box">
+                <div class="carousel-item w-full">
+                  <img id="1" src="./assets/8.JPG" class="w-full" alt="Tailwind CSS Carousel component" />
+                </div> 
+                <div class="carousel-item w-full">
+                  <img id="2" src="./assets/17.jpg" class="w-full" alt="Tailwind CSS Carousel component" />
+                </div> 
+                <div class="carousel-item w-full">
+                  <img id="3" src="./assets/7.jpg" class="w-full" alt="Tailwind CSS Carousel component" />
+                </div> 
+              </div>
+            </div>
+            <div>
+              <h1></h1>
+            </div>
+          </div>
+        </div>
+    </div>
     </div>
     <!-- Akhir content -->
 
@@ -139,70 +326,6 @@
     <div class="running-box absolute slideUp z-10"></div>
     <!-- akhir animasi setelah loading screen -->
 
-    <script>
-      const container = document.querySelector(".loading-container");
-      const main = document.querySelector(".main");
-      const runningBox = document.querySelector(".running-box");
-      const loadingText = document.querySelector(".loading-text");
-      var percent = 0;
-      var loop = setInterval(() => {
-        if (percent != 100) {
-          percent++;
-          loadingText.innerHTML = `${percent}%`;
-          main.style.display = "none";
-          runningBox.style.display = "none";
-        } else {
-          clearInterval(loop);
-          loadingText.innerHTML = `Thank you for waiting!`;
-          setTimeout(() => {
-            container.style.display = "none";
-          }, 900);
-          setTimeout(() => {
-            runningBox.style.display = "block";
-          }, 700);
-
-          setTimeout(() => {
-            main.style.display = "inline"; // Tampilkan elemen main setelah 3 detik
-          }, 2000);
-
-          setTimeout(() => {
-            runningBox.style.display = "none";
-          }, 3000);
-        }
-      }, 20);
-      // total waktu untuk animasi diatas adalah 5 detik atau 5s
-
-      // Part 2 - Mengubah warna background pada elemen changeBgColor
-      // deklarasi variable warna
-      const changeBgColor = document.querySelector(".changeBgColor");
-      const colors = [
-        "rgb(173, 216, 230)",
-        "rgb(255, 165, 0)",
-        "rgb(255, 192, 203)",
-        "rgb(0, 128, 128)",
-      ];
-      let index = 0;
-
-      function changeBackgroundColor() {
-        changeBgColor.style.backgroundColor = colors[index];
-        index = (index + 1) % colors.length; // Melakukan looping ke warna pertama setelah mencapai warna terakhir
-      }
-
-      setTimeout(() => {
-        setInterval(changeBackgroundColor, 2000);
-      }, 2000);
-
-      // animasi bentuk
-      const shapes = document.querySelectorAll(".shape");
-      let currentIndex = 0;
-
-      function showNextShape() {
-        shapes[currentIndex].style.display = "none";
-        currentIndex = (currentIndex + 1) % shapes.length;
-        shapes[currentIndex].style.display = "block";
-      }
-
-      setInterval(showNextShape, 2000); // Tampilkan elemen bergantian setiap
-    </script>
+    <script src="./src/script.js"></script>
   </body>
 </html>
