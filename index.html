@@ -290,33 +290,89 @@
             </div>
           </div>
         </div>
-        <div class="sticky top-0 h-auto bg-white p-8">
+        <div class="relative top-0 h-screen bg-white p-8">
           <div class="flex items-center justify-end mb-10 lg:mb-20">
             <h1 class="text-4xl text-end uppercase font-bold text-black">There were my career journey <span class="block text-sm font-normal text-slate-500">2021-2023</span></h1>
           </div>
-          <div class="flex items-center justify-between">
-            <div>
-              <div class="flex w-full py-2 gap-2">
-                <a href="#1" class=""><i class="fi fi-br-circle text-blue-600"></i></a> 
-                <a href="#2" class=""><i class="fi fi-br-circle text-red-700"></i></a> 
-                <a href="#3" class=""><i class="fi fi-br-circle text-purple-600"></i></a>
+          <div class="block lg:flex items-center">
+            <div class="overflow-hidden mb-5 lg:mb-0 py-5">
+              <div class="card-carousel">
+                <div class="card" id="4">
+                  <img src="./assets/5.jpg" class="rounded-md" alt="">
+                </div>
+                <div class="card" id="5">
+                  <img src="./assets/4.jpg" class="rounded-md w-[70%]" alt="">
+                </div>
+                <div class="card" id="2">
+                  <img src="./assets/17.jpg" class="rounded-md" alt="">
+                </div>
+                <div class="card" id="1">
+                  <img src="./assets/8.JPG" class="rounded-md w-[85%]" alt="">
+                </div>
+                <div class="card" id="3">
+                  <img src="./assets/7.jpg" class="rounded-md" alt="">
+                </div> 
+                <div class="card" id="6">
+                  <img src="./assets/14.webp" class="rounded-md w-[70%]" alt="">
+                </div>
+                <div class="card" id="7">
+                  <img src="./assets/12.jpg" class="rounded-md w-[70%]" alt="">
+                </div>
               </div>
-              <div class="w-64 carousel rounded-box">
-                <div class="carousel-item w-full">
-                  <img id="1" src="./assets/8.JPG" class="w-full" alt="Tailwind CSS Carousel component" />
-                </div> 
-                <div class="carousel-item w-full">
-                  <img id="2" src="./assets/17.jpg" class="w-full" alt="Tailwind CSS Carousel component" />
-                </div> 
-                <div class="carousel-item w-full">
-                  <img id="3" src="./assets/7.jpg" class="w-full" alt="Tailwind CSS Carousel component" />
-                </div> 
-              </div>
+              <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
             </div>
             <div>
-              <h1></h1>
+              <div class="w-full overflow-y-auto flex items-start gap-2 mb-10">
+                <div class="mb-5 lg:mb-0">
+                  <div class="flex items-center gap-4 mb-5">
+                    <div class="w-5 h-5 rounded-full bg-blue-800 shadow-sm"></div>
+                    <div class="w-[120px] bg-blue-800 h-1 text-black"></div>
+                  </div>
+                  <div class="text-start">
+                    <h1 class="text-xs font-normal text-slate-600">2021</h1>
+                    <span class="block text-black text-base font-medium">I Am Fashion Store</span>
+                    <span class="text-blue-800 font-medium text-xs">SPB Team Management</span>
+                  </div>
+                </div>
+                <div class="mb-5 lg:mb-0">
+                  <div class="flex items-center gap-4 mb-5">
+                    <div class="w-5 h-5 rounded-full bg-red-800 shadow-sm"></div>
+                    <div class="w-[150px] bg-red-800 h-1 text-black"></div>
+                  </div>
+                  <div class="text-start">
+                    <h1 class="text-xs font-normal text-slate-600">2022</h1>
+                    <span class="block text-black text-base font-medium">Odong Odong Project</span>
+                    <span class="text-red-800 font-medium text-xs">Event Organizer,<span class="block">Fotographer & Videographer</span></span>
+                  </div>
+                </div>
+                <div class="mb-5 lg:mb-0">
+                  <div class="flex items-center gap-4 mb-5">
+                    <div class="w-5 h-5 rounded-full bg-purple-800 shadow-sm"></div>
+                    <div class="w-[100px] bg-purple-800 h-1 text-black"></div>
+                  </div>
+                  <div class="text-start">
+                    <h1 class="text-xs font-normal text-slate-600">2022</h1>
+                    <span class="block text-black text-base font-medium">Honest.Idn</span>
+                    <span class="text-purple-800 font-medium text-xs">Owner</span>
+                  </div>
+                </div>
+                <div class="">
+                  <div class="flex items-center gap-4 mb-5">
+                    <div class="w-5 h-5 rounded-full bg-purple-800 shadow-sm opacity-25"></div>
+                  </div>
+                  <div class="text-start">
+                    <h1 class="text-xs font-normal text-slate-600">2022 - Now</h1>
+                    <span class="block text-black text-base font-medium">Web Development</span>
+                    <span class="text-blue-800 font-medium text-xs">Freelance</span>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <p class="w-full lg:w-[600px] text-sm font-medium text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque architecto, minus accusantium dicta quo quaerat officia reprehenderit velit nam?</p>
+              </div>
             </div>
           </div>
+          
         </div>
     </div>
     </div>
@@ -327,5 +383,6 @@
     <!-- akhir animasi setelah loading screen -->
 
     <script src="./src/script.js"></script>
+    <script src="./src/carousel.js"></script>
   </body>
 </html>
